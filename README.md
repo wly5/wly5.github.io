@@ -4,6 +4,5 @@ Description:
 This is where I will post my resume, a portfolio of all/some of the work I have done, and possibly recommendation of things I use to help make my life easier.
 
 Next step:
-- Fill in my details from my resume onto the site
-- Make it look pretty with HTML/CSS
-- Upload some of my work with links, and upload the code for them in a different respository on my GitHub
+- Finish the portfolio section to replace placeholder images
+- Add a PHP form sender to add functionality to the contact form
