@@ -13,9 +13,11 @@
 	</head>
 
 	<body>
+		<!-- Scroll to Top button -->
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	
 		<!-- Dropdown Structure -->
-		<ul id="dropdown1" class="dropdown-content">
+		<ul id="groups" class="dropdown-content">
 			<li><a href="#morningmusume">Morning Musume</a></li>
 			<li><a href="#angerme">ANGERME</a></li>
 			<li><a href="#juicejuice">Juice=Juice</a></li>
@@ -25,22 +27,21 @@
 			<li><a href="#beyooooonds">BEYOOOOONDS</a></li>
 			<li><a href="#kenshuusei">Hello Pro Trainee</a></li>
 		</ul>
-	
-		<!-- Navbar goes here -->
-		<div class="navbar-fixed">
 		
-			<nav class="blue">
-				<div class="nav-wrapper container">
-					<a href="#top" class="brand-logo">Hello! Project</a>
-					<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-					<ul id="nav-mobile" class="right hide-on-med-and-down">
-					
-						<!-- Dropdown Trigger -->
-						<li><a class="dropdown-trigger" href="#" data-target="dropdown1">Groups<i class="material-icons right">arrow_drop_down</i></a></li>
-					</ul>
-				</div>
-			</nav>
-		</div>
+		<!-- Navbar goes here -->		
+		<nav class="blue">
+			<div class="nav-wrapper container">
+				<a href="#top" class="brand-logo">Hello! Project</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="#morningmusume">Morning Musume</a></li>
+					<!-- Dropdown Trigger -->
+					<li><a class="dropdown-trigger" href="#" data-target="groups">Groups<i class="material-icons right">arrow_drop_down</i></a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Sidebar nav in mobile -->
 		<ul class="sidenav" id="mobile-demo">
 			<li><a href="#morningmusume">Morning Musume</a></li>
 			<li><a href="#angerme">ANGERME</a></li>
