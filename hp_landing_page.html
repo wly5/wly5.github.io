@@ -15,34 +15,21 @@
 	<body>
 		<!-- Scroll to Top button -->
 		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-	
-		<!-- Dropdown Structure -->
-		<ul id="groups" class="dropdown-content">
-			<li><a href="#morningmusume">Morning Musume</a></li>
-			<li><a href="#angerme">ANGERME</a></li>
-			<li><a href="#juicejuice">Juice=Juice</a></li>
-			<li><a href="#countrygirls">Country Girls</a></li>
-			<li><a href="#kobushifactory">Kobushi Factory</a></li>
-			<li><a href="#tsubakifactory">Tsubaki Factory</a></li>
-			<li><a href="#beyooooonds">BEYOOOOONDS</a></li>
-			<li><a href="#kenshuusei">Hello Pro Trainee</a></li>
-		</ul>
-		
+
 		<!-- Navbar goes here -->		
 		<nav class="blue">
 			<div class="nav-wrapper container">
+				<a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
 				<a href="#top" class="brand-logo">Hello! Project</a>
-				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="#morningmusume">Morning Musume</a></li>
-					<!-- Dropdown Trigger -->
-					<li><a class="dropdown-trigger" href="#" data-target="groups">Groups<i class="material-icons right">arrow_drop_down</i></a></li>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#community">Community</a></li>
 				</ul>
 			</div>
 		</nav>
 
 		<!-- Sidebar nav in mobile -->
-		<ul class="sidenav" id="mobile-demo">
+		<ul id="slide-out" class="sidenav">
+			<li><a href="#community">Community</a></li>
 			<li><a href="#morningmusume">Morning Musume</a></li>
 			<li><a href="#angerme">ANGERME</a></li>
 			<li><a href="#juicejuice">Juice=Juice</a></li>
@@ -69,6 +56,22 @@
 				</div>
 			</div>
 
+		</div>
+		
+		<div class="row">
+			<div class="col s12 m4 l8">
+				<div id="community" class="section no-pad-bot">
+					<div class="container">
+						<ul class="collection with-header">
+							<li class="collection-header"><h4>Community</h4></li>
+							<a target="_blank" href="https://en.wikipedia.org/wiki/Hello!_Project" class="collection-item">Wikipedia (Hello! Project)</a>
+							<a target="_blank" href="http://helloproject.wikia.com/wiki/Hello!_Project" class="collection-item">Wikia (Hello! Project)</a>
+							<a target="_blank" href="http://www.hello-online.org/" class="collection-item">Hello! Online</a>
+							<a target="_blank" href="https://twitter.com/hipnewsservice" class="collection-item">Hello! News Service</a>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
 		
 		<div class="row">
